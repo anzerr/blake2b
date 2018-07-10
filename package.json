@@ -1,5 +1,5 @@
 {
-	"name": "Blake2B",
+	"name": "blake2b",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
