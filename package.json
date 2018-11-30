@@ -6,5 +6,12 @@
 	"scripts": {},
 	"keywords": [],
 	"author": "",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^5.8.0",
+		"eslint-config-basic": "git+ssh://git@github.com/anzerr/eslintrc.git"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	}
 }
