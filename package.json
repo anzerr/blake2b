@@ -9,7 +9,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"eslint": "^5.8.0",
-		"eslint-config-basic": "git+http://git@github.com/anzerr/eslintrc.git"
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
