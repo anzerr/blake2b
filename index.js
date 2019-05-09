@@ -1,7 +1,7 @@
 'use strict';
 
-const Blake2b = require('./blake2b/blake2b.js');
-const util = require('./blake2b/util.js');
+const Blake2b = require('./src/blake2b.js'),
+	util = require('./src/util.js');
 
 // BLAKE.js v1.0.1
 // Adaptation of https://github.com/dcposch/blakejs
@@ -22,6 +22,6 @@ module.exports = {
 	},
 
 	hex: function(input, key, length) {
-		return util.toHex(this.hash(input, key, length));
+		return this.hash(input, key, length).toString('hex');
 	}
 };

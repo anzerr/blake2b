@@ -11,7 +11,7 @@ class Util {
 	}
 
 	normalizeInput(input) {
-		if (input instanceof Uint8Array) {
+		if (input instanceof Uint8Array || Buffer.isBuffer(input) || typeof input === 'string') {
 			return input;
 		}
 		throw new Error('Input must be an string, Buffer or Uint8Array');
