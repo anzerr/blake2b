@@ -2,8 +2,7 @@
 ### `Intro`
 Blake2B in Javascript (cleaned up version)
 
-Install
-
+#### `Install`
 ```shell
 npm install --save git+http://git@github.com/anzerr/blake2b.git
 ```
