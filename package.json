@@ -1,29 +1,28 @@
 {
 	"name": "blake2b",
 	"version": "1.0.1",
-	"description": "",
-	"main": "index.js",
-	"types": "index.d.ts",
-	"scripts": {},
 	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
-	"devDependencies": {
-		"eslint": "5.11.1",
-		"eslint-config-basic": "git+http://git@github.com/anzerr/eslintrc.git"
-	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
+	"homepage": "https://github.com/anzerr/blake2b#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/blake2b/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:anzerr/blake2b.git"
 	},
+	"license": "MIT",
+	"author": "anzerr",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"devDependencies": {
+		"eslint": "5.11.1",
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"bugs": {
-		"url": "https://github.com/anzerr/blake2b/issues"
-	},
-	"homepage": "https://github.com/anzerr/blake2b#readme"
+	}
 }
