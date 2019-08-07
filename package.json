@@ -1,6 +1,6 @@
 {
 	"name": "blake2b",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"keywords": [],
 	"homepage": "https://github.com/anzerr/blake2b#readme",
 	"bugs": {
@@ -19,7 +19,6 @@
 		"extends": "eslint-config-basic"
 	},
 	"devDependencies": {
-		"eslint": "5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"engines": {
