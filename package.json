@@ -14,7 +14,9 @@
 	"author": "anzerr",
 	"main": "index.js",
 	"types": "index.d.ts",
-	"scripts": {},
+	"scripts": {
+		"test": "node example.js"
+	},
 	"eslintConfig": {
 		"extends": "eslint-config-basic"
 	},
