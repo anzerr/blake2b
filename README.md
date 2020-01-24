@@ -1,5 +1,7 @@
 
 ### `Intro`
+![GitHub Actions status | publish](https://github.com/anzerr/blake2b/workflows/publish/badge.svg)
+
 Blake2B in Javascript (cleaned up version)
 
 #### `Install`
