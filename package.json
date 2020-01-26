@@ -1,7 +1,13 @@
 {
 	"name": "blake2b",
 	"version": "1.0.9",
-	"keywords": [],
+	"description": "Blake2B in Javascript",
+	"keywords": [
+		"blake2b",
+		"hash",
+		"nodejs",
+		"util"
+	],
 	"homepage": "https://github.com/anzerr/blake2b#readme",
 	"bugs": {
 		"url": "https://github.com/anzerr/blake2b/issues"
