@@ -1,6 +1,6 @@
 {
 	"name": "blake2b",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"description": "Blake2B in Javascript",
 	"keywords": [
 		"blake2b",
